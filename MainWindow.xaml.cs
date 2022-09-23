@@ -24,5 +24,10 @@ namespace WPF_Shovkun_PR1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("До свидания, группа ИСП, пора на мобилизацию!");
+        }
     }
 }
